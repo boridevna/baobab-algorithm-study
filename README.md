@@ -14,6 +14,7 @@
 
 ## Pull Request
 When you completed solving problem, create new Pull Request and invite all members.
+
 During Pull Request, member can..
 - suggest better solving scheme
 - suggest better naming, code structure, or anything related making better code
