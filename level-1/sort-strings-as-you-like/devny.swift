@@ -6,7 +6,10 @@ extension String {
     }
 }
 
-func solution(_ s:String) -> String {
-    let index = s.count / 2
-    return s.count % 2 == 0  ? s[index-1]+s[index] : s[(index)]
+func solution(_ strings:[String], _ n:Int) -> [String] {
+    return strings.map {  $0[n] + $0 }.sorted().map { (string) -> String in
+        var value = string
+        value.removeFirst()
+        return value
+    }
 }
